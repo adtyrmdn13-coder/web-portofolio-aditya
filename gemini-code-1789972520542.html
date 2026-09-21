@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Aditya Ramdani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0A192F',
+                        navyLight: '#112240',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <header class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-xl font-bold text-navy tracking-tight">AR.</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-sm font-semibold text-gray-600 hover:text-navy transition">About</a>
+                <a href="#experience" class="text-sm font-semibold text-gray-600 hover:text-navy transition">Experience & Projects</a>
+                <a href="#skills" class="text-sm font-semibold text-gray-600 hover:text-navy transition">Skills</a>
+                <a href="#contact" class="text-sm font-semibold text-gray-600 hover:text-navy transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center bg-white pt-20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-navy font-semibold tracking-wider uppercase mb-3">Selamat Datang di</p>
+            <h1 class="text-5xl md:text-7xl font-bold text-navy mb-6 tracking-tight">Portofolio - Aditya Ramdani</h1>
+            <h2 class="text-2xl md:text-3xl text-gray-500 mb-8 font-light">Graphic Designer & Software Enthusiast</h2>
+            <div class="flex justify-center space-x-4">
+                <a href="#contact" class="px-8 py-3 bg-navy text-white rounded-md font-semibold hover:bg-navyLight transition shadow-lg">Hubungi Saya</a>
+                <a href="#about" class="px-8 py-3 border border-navy text-navy rounded-md font-semibold hover:bg-gray-50 transition">Lihat Profil</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-navy mb-8 relative inline-block">
+                About Me
+                <span class="absolute bottom-0 left-0 w-full h-1 bg-navy rounded opacity-20 transform translate-y-2"></span>
+            </h2>
+            <p class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                Saya adalah lulusan SMA Negeri 10 Bogor Jurusan IPA, dengan pengalaman berorganisasi di sekolah serta memiliki kemampuan berkomunikasi, bekerja sama dalam tim, dan bekerja secara mandiri. Saya merupakan pribadi yang disiplin, bertanggung jawab, mudah beradaptasi, serta memiliki semangat untuk mengembangkan keterampilan dan memberikan kontribusi positif bagi perusahaan.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience & Projects Section -->
+    <section id="experience" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-navy mb-12 text-center relative inline-block left-1/2 transform -translate-x-1/2">
+                Experience & Projects
+                <span class="absolute bottom-0 left-0 w-full h-1 bg-navy rounded opacity-20 transform translate-y-2"></span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Experience Card 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="text-sm font-semibold text-gray-400 mb-2">2021 - 2024</div>
+                    <h3 class="text-xl font-bold text-navy mb-2">PASDASA SMA NEGERI 10 BOGOR</h3>
+                    <p class="text-gray-600">
+                        Berpengalaman selama 3 tahun sebagai anggota Paskibraka. Pengalaman ini membentuk saya menjadi pribadi yang disiplin, tangguh secara mental dan fisik, serta memiliki pemahaman yang baik mengenai Peraturan Baris Berbaris (PBB) dan kerja sama tim.
+                    </p>
+                </div>
+
+                <!-- Experience Card 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="text-sm font-semibold text-gray-400 mb-2">2022 - 2024</div>
+                    <h3 class="text-xl font-bold text-navy mb-2">PMR SMA NEGERI 10 BOGOR</h3>
+                    <p class="text-gray-600">
+                        Selama 2 tahun aktif sebagai anggota Palang Merah Remaja (PMR), saya memiliki pemahaman dan keterampilan dalam Pertolongan Pertama (PP), serta terlatih dalam nilai-nilai kemanusiaan, empati, kerja sama tim, dan kesiapsiagaan dalam situasi darurat.
+                    </p>
+                </div>
+                
+                <!-- Project Card 1 (Inferred from Graphic Designer skill) -->
+                <div class="bg-gray-50 p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition md:col-span-2">
+                    <div class="text-sm font-semibold text-gray-400 mb-2">Portofolio Karya</div>
+                    <h3 class="text-xl font-bold text-navy mb-2">Proyek Desain Grafis</h3>
+                    <p class="text-gray-600 mb-4">
+                        Mengaplikasikan kreativitas dan keahlian perangkat lunak (software) untuk menghasilkan berbagai karya desain visual yang komunikatif dan menarik secara estetika.
+                    </p>
+                    <div class="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center text-gray-400 border-2 border-dashed border-gray-300">
+                        [Ruang untuk Mockup/Gambar Portofolio Desain]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skills Section -->
+    <section id="skills" class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-navy mb-12 relative inline-block">
+                My Skills
+                <span class="absolute bottom-0 left-0 w-full h-1 bg-navy rounded opacity-20 transform translate-y-2"></span>
+            </h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-6 py-3 bg-white border border-gray-200 text-navy font-semibold rounded-full shadow-sm hover:bg-navy hover:text-white transition cursor-default">Desain Grafis</span>
+                <span class="px-6 py-3 bg-white border border-gray-200 text-navy font-semibold rounded-full shadow-sm hover:bg-navy hover:text-white transition cursor-default">Software / Perangkat Lunak</span>
+                <span class="px-6 py-3 bg-white border border-gray-200 text-navy font-semibold rounded-full shadow-sm hover:bg-navy hover:text-white transition cursor-default">Kerja Sama Tim</span>
+                <span class="px-6 py-3 bg-white border border-gray-200 text-navy font-semibold rounded-full shadow-sm hover:bg-navy hover:text-white transition cursor-default">Komunikasi</span>
+                <span class="px-6 py-3 bg-white border border-gray-200 text-navy font-semibold rounded-full shadow-sm hover:bg-navy hover:text-white transition cursor-default">Kedisiplinan & Kepemimpinan</span>
+                <span class="px-6 py-3 bg-white border border-gray-200 text-navy font-semibold rounded-full shadow-sm hover:bg-navy hover:text-white transition cursor-default">Pertolongan Pertama (PP)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-navy text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12">Let's Work Together</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="p-6 bg-navyLight rounded-xl">
+                    <div class="text-gray-400 mb-2 font-semibold">Telephone</div>
+                    <div class="text-lg">+62 895 - 1677 - 1406</div>
+                </div>
+                <div class="p-6 bg-navyLight rounded-xl">
+                    <div class="text-gray-400 mb-2 font-semibold">Address</div>
+                    <div class="text-lg">Kota Bogor, Jawa Barat</div>
+                </div>
+                <div class="p-6 bg-navyLight rounded-xl">
+                    <div class="text-gray-400 mb-2 font-semibold">Social Media</div>
+                    <div class="text-lg">@adtyrrmdn</div>
+                </div>
+            </div>
+            <p class="text-gray-400 pt-8 border-t border-gray-700/50">
+                &copy; 2026 Aditya Ramdani. All rights reserved.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
